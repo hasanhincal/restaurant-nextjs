@@ -22,6 +22,10 @@ This is a responsive restaurant application built using Next.js, React, TypeScri
 - **ESLint (v8)**: Linter tool for identifying and fixing problems in JavaScript/TypeScript code.
 - **PostCSS (v8)**: Tool for transforming CSS with JavaScript plugins.
 
+## For Live Project
+
+https://restaurant.safewebsite.store/
+
 ## Poject Gif
 
 <img src="screen1.gif" alt="gif"/>
