@@ -1,31 +1,45 @@
 # Restaurant Project
 
-This is a responsive restaurant application built using Next.js, React, TypeScript, and TailwindCSS. The project features an intuitive and visually appealing design where users can browse through pizza and hamburger menus and place orders.
-
-## Features
-
-- **Menu Display**: Users can explore a variety of pizza and hamburger options available at the restaurant.
-- **Order Functionality**: Seamlessly add items to the cart and place orders with ease.
-- **Responsive Design**: Optimized for all devices, ensuring a great user experience on mobile, tablet, and desktop.
-- **Countdown Timer**: Integrated countdown timer for special offers or limited-time deals.
-- **Modern Styling**: Utilizes TailwindCSS for efficient and scalable styling.
-- **TypeScript**: TypeScript is used throughout the project to ensure type safety and code reliability.
+A responsive restaurant application built with Next.js, Prisma, and Stripe. This project includes order management, responsive design, and payment functionalities.
 
 ## Technologies Used
 
-- **Next.js (v14.2.5)**: Framework for server-rendered React applications.
-- **React (v18)**: JavaScript library for building user interfaces.
-- **React Countdown (v2.3.6)**: For implementing countdown timers.
-- **ReactDOM (v18)**: Serves as the entry point to the DOM and server renderers.
-- **TailwindCSS (v3.4.1)**: Utility-first CSS framework for styling.
-- **TypeScript (v5)**: Superset of JavaScript that adds static types.
-- **ESLint (v8)**: Linter tool for identifying and fixing problems in JavaScript/TypeScript code.
-- **PostCSS (v8)**: Tool for transforming CSS with JavaScript plugins.
+- **Dependencies:**
 
-## For Live Project
+  - `@next-auth/prisma-adapter`: "^1.0.7"
+  - `@prisma/client`: "^5.18.0"
+  - `@stripe/react-stripe-js`: "^2.8.0"
+  - `@stripe/stripe-js`: "^4.3.0"
+  - `@tanstack/react-query`: "^5.51.23"
+  - `next`: "14.2.5"
+  - `next-auth`: "^4.24.7"
+  - `prisma`: "^5.18.0"
+  - `react`: "^18"
+  - `react-countdown`: "^2.3.6"
+  - `react-dom`: "^18"
+  - `react-toastify`: "^10.0.5"
+  - `stripe`: "^16.8.0"
+  - `toastify`: "^2.0.1"
+  - `zustand`: "^4.5.5"
 
-https://restaurant.safewebsite.store/
+- **DevDependencies:**
+  - `@types/node`: "^20"
+  - `@types/react`: "^18"
+  - `@types/react-dom`: "^18"
+  - `eslint`: "^8"
+  - `eslint-config-next`: "14.2.5"
+  - `postcss`: "^8"
+  - `tailwindcss`: "^3.4.1"
+  - `typescript`: "^5"
 
-## Poject Gif
+## Features
 
-<img src="screen1.gif" alt="gif"/>
+- **Order Management:** Create and manage orders with real-time updates.
+- **Responsive Design:** Fully responsive UI that adapts to various screen sizes.
+- **Payment Integration:** Stripe integration for processing payments.
+- **Real-Time Updates:** Use of React Query for data fetching and state management.
+- **User Authentication:** Secure user authentication with NextAuth.js.
+
+## Project Gif
+
+ <img src="screen1.gif" alt="gif" />
