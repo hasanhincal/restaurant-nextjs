@@ -40,6 +40,10 @@ A responsive restaurant application built with Next.js, Prisma, and Stripe. This
 - **Real-Time Updates:** Use of React Query for data fetching and state management.
 - **User Authentication:** Secure user authentication with NextAuth.js.
 
+## For Live Project 
+
+https://restaurant.safewebsite.store/
+
 ## Project Gif
 
  <img src="screen1.gif" alt="gif" />
